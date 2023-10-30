@@ -1,0 +1,172 @@
+*{
+	margin: 0;
+	padding: 0;
+
+
+}
+body{
+	font-family: 'Trebuchet MS', sans-serif
+}
+header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: rgb(14 19 21);
+	height: 18vh;
+	position: fixed;
+	top: 0;
+	width:100%;
+
+}
+nav a{
+	padding: 15px;
+	margin-right: 15px;
+	font-size: 18px;
+	text-decoration: none;
+	color: #fff;
+	transition: 0.3s;
+}
+nav a:hover{
+	color: maroon;
+}
+
+.logo a{
+
+	font-size: 22px;
+	text-decoration: none;
+	color:#32a7a4;
+}
+.logo a:hover{
+	color: purple;
+}
+
+.about-me{
+	margin-top: 18vh;
+	padding-top: 15vh;
+	height: 100vh;
+	background-image: url(bcg51.jpg) ;
+	text-align: center;
+
+}
+.about-me h1{
+	font-size: 150px;
+	color:#32a7a4;
+}
+.about-me>h3{
+		font-size: 50px;
+		color: #32a7a4;
+}
+.project-container{
+	background-color:rgb(14 19 21);
+	height: fit-content;
+	border-top: solid white;
+}
+.project-container h2{
+	text-align: center;
+	padding-top: 35px;
+	font-size: 30px;
+	color: #32a7a4;
+}
+.projects{
+	padding-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:left;
+	align-items: left;
+	color:rgb(14 19 21);
+	
+}
+.project-article{
+	margin-left: 100px;
+	margin-bottom: 50px;
+}
+.project-article:last-child{
+	margin-left: none;
+}
+.project-article{
+	padding-top: 20;
+	width: 300px;
+	display: flexbox;
+	flex-direction: row;
+	justify-content: center;
+	height: 400px;
+	background-color:#32a7a4;
+	border: solid black ;
+	border-radius: 20px;
+	box-shadow: #fff;	
+}
+.project-article img{
+	width: 100%;
+	height: 50%;
+	border-radius: 20px;
+}
+.project-article h3{
+	text-align: center;
+	padding-top: 30px;
+}
+.project-article p{
+	text-align: center;
+	margin: 10px 10px 10px 10px;
+}
+
+.contact-me{
+	background-color:rgb(14 19 21);
+	padding-top: 40px;
+	height: 30vh;
+	border-top: solid #fff;
+	height: fit-content;
+}
+.contact-me h2{
+	text-align: center;
+	color: #32a7a4;
+	padding-bottom: 25px;
+	font-size: 30px;
+}
+.contact-me .links{
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+.contact-me-items{
+	
+	display: grid;
+	grid-template-columns: auto;
+	justify-content: center;
+
+}
+.address,.tel{
+	color:#fff;
+	padding-top: 20px;
+	text-align: center;
+}
+.links .fa-brands:hover{
+	color: black;
+	
+}
+.links{
+	padding-top: 20px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+}
+.fa-brands{
+	
+	
+}
+.fa-youtube{
+	color: red;
+}
+.fa-facebook{
+	color: blue;
+}
+.fa-instagram{
+	color: purple;
+}
+footer{
+	height: 9vh;
+	background-color: black;
+	color: whitesmoke;
+}
+footer p{
+	align-items: baseline;
+	text-align: center;	
+}
